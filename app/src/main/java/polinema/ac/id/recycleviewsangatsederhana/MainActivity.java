@@ -38,6 +38,8 @@ public class MainActivity extends AppCompatActivity {
         listSuperHero.add(hero);
         hero = new SuperHero("Gareng5");
         listSuperHero.add(hero);
+        hero = new SuperHero("Gareng6");
+        listSuperHero.add(hero);
 
         SuperHeroAdapter superHeroAdapter = new SuperHeroAdapter(listSuperHero);
         rvSuperHero.setAdapter(superHeroAdapter);
